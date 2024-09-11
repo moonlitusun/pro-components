@@ -1,12 +1,12 @@
 // 主要处理新建和编辑的场景
 
-import type { ProFormInstance } from '@ant-design/pro-components';
+import type { ProFormInstance } from '@dz-web/antd-pro-components';
 import {
   ProFormDateRangePicker,
   ProFormSelect,
   ProFormText,
   StepsForm,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import type { Dayjs } from 'dayjs';
 import dayjs from 'dayjs';
 import React, { useEffect, useRef } from 'react';

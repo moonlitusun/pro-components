@@ -1,9 +1,9 @@
-import { useIntl } from '@ant-design/pro-provider';
+import { useIntl } from '@dz-web/antd-pro-provider';
 import {
   FieldLabel,
   compatibleBorder,
   parseValueToDay,
-} from '@ant-design/pro-utils';
+} from '@dz-web/antd-pro-utils';
 import { DatePicker, TimePicker } from 'antd';
 import dayjs from 'dayjs';
 import React, { useState } from 'react';

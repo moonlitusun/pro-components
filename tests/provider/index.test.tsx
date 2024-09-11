@@ -4,7 +4,7 @@ import {
   ProFormMoney,
   createIntl,
   useStyle,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import { cleanup, render } from '@testing-library/react';
 import { ConfigProvider } from 'antd';
 

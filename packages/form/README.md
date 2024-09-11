@@ -1,15 +1,15 @@
-# @ant-design/pro-form
+# @dz-web/antd-pro-form
 
 ## Install
 
 Using npm:
 
 ```bash
-$ npm install --save  @ant-design/pro-form
+$ npm install --save  @dz-web/antd-pro-form
 ```
 
 or using yarn:
 
 ```bash
-$ yarn add @ant-design/pro-form
+$ yarn add @dz-web/antd-pro-form
 ```

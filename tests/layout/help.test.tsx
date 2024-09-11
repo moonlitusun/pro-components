@@ -1,11 +1,11 @@
-﻿import type { ProHelpDataSourceChildren } from '@ant-design/pro-components';
+﻿import type { ProHelpDataSourceChildren } from '@dz-web/antd-pro-components';
 import {
   ProHelp,
   ProHelpDrawer,
   ProHelpModal,
   ProHelpPanel,
   ProHelpSelect,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import {
   act,
   cleanup,

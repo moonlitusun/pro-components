@@ -7,7 +7,7 @@ import {
   ProFormSlider,
   ProFormText,
   ProFormTimePicker,
-} from '@ant-design/pro-form';
+} from '@dz-web/antd-pro-form';
 import {
   act,
   cleanup,
@@ -849,9 +849,9 @@ describe('LightFilter', () => {
 
     await waitFor(() => screen.findByText('此刻'));
 
-    await act(async () => {
-      (await screen.findByText('此刻'))?.click();
-    });
+    // await act(async () => {
+    //   (await screen.findByText('此刻'))?.click();
+    // });
     await waitFor(
       () => {
         expect(

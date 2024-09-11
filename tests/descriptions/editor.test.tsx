@@ -1,9 +1,9 @@
 import type {
   ProDescriptionsActionType,
   ProDescriptionsItemProps,
-} from '@ant-design/pro-descriptions';
-import Descriptions from '@ant-design/pro-descriptions';
-import type { RowEditableConfig } from '@ant-design/pro-utils';
+} from '@dz-web/antd-pro-descriptions';
+import Descriptions from '@dz-web/antd-pro-descriptions';
+import type { RowEditableConfig } from '@dz-web/antd-pro-utils';
 import {
   act,
   cleanup,

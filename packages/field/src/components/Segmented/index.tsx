@@ -5,7 +5,7 @@ import type { ProFieldFC } from '../../index';
 import type { FieldSelectProps } from '../Select';
 import { useFieldFetchData } from '../Select';
 
-import { objectToMap, proFieldParsingText } from '@ant-design/pro-utils';
+import { objectToMap, proFieldParsingText } from '@dz-web/antd-pro-utils';
 import 'antd/lib/segmented/style';
 import 'antd/lib/spin/style';
 

@@ -1,6 +1,6 @@
 import { DownOutlined } from '@ant-design/icons';
-import { ProProvider } from '@ant-design/pro-provider';
-import { compareVersions, menuOverlayCompatible } from '@ant-design/pro-utils';
+import { ProProvider } from '@dz-web/antd-pro-provider';
+import { compareVersions, menuOverlayCompatible } from '@dz-web/antd-pro-utils';
 import { Dropdown, Space, Tabs, version } from 'antd';
 import classNames from 'classnames';
 import useMergedState from 'rc-util/lib/hooks/useMergedState';

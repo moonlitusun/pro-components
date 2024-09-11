@@ -1,7 +1,7 @@
 {
-  "name": "@ant-design/pro-provider",
-  "version": "2.14.9",
-  "description": "@ant-design/pro-provider",
+  "name": "@dz-web/antd-pro-provider",
+  "version": "3.0.0",
+  "description": "@dz-web/antd-pro-provider",
   "keywords": [
     "antd",
     "admin",

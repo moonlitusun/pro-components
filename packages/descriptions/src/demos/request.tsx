@@ -1,5 +1,5 @@
-import type { ProDescriptionsActionType } from '@ant-design/pro-components';
-import { ProDescriptions } from '@ant-design/pro-components';
+import type { ProDescriptionsActionType } from '@dz-web/antd-pro-components';
+import { ProDescriptions } from '@dz-web/antd-pro-components';
 import { Button } from 'antd';
 import { useRef } from 'react';
 

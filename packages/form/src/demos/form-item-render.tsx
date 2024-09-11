@@ -7,7 +7,7 @@ import {
   pickControlProps,
   pickControlPropsWithId,
   useControlModel,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import { Checkbox, Input, Select } from 'antd';
 
 const SingletonA = (

@@ -14,7 +14,7 @@ Page-level skeleton screen, does not support customization
 ## Installation and initialization
 
 ```typescript | pure
-import Skeleton from '@ant-design/pro-skeleton';
+import Skeleton from '@dz-web/antd-pro-skeleton';
 
 return <Skeleton type="list" />;
 ```

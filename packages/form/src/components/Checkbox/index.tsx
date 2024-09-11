@@ -1,4 +1,4 @@
-import { runFunction } from '@ant-design/pro-utils';
+import { runFunction } from '@dz-web/antd-pro-utils';
 import type { CheckboxProps, CheckboxRef } from 'antd';
 import { Checkbox } from 'antd';
 import type { CheckboxGroupProps } from 'antd/lib/checkbox';

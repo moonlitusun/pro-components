@@ -5,13 +5,13 @@ import {
   QuestionCircleFilled,
   SearchOutlined,
 } from '@ant-design/icons';
-import type { ProSettings } from '@ant-design/pro-components';
+import type { ProSettings } from '@dz-web/antd-pro-components';
 import {
   PageContainer,
   ProCard,
   ProLayout,
   compatibleBorder,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import { Input } from 'antd';
 import { useState } from 'react';
 import defaultProps from './_defaultProps';

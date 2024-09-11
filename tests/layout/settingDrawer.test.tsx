@@ -1,4 +1,4 @@
-import { SettingDrawer } from '@ant-design/pro-components';
+import { SettingDrawer } from '@dz-web/antd-pro-components';
 import {
   act,
   cleanup,

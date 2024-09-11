@@ -1,11 +1,11 @@
 ﻿import { LoadingOutlined } from '@ant-design/icons';
-import { useIntl } from '@ant-design/pro-provider';
+import { useIntl } from '@dz-web/antd-pro-provider';
 import {
   FieldLabel,
   compatibleBorder,
   objectToMap,
   proFieldParsingText,
-} from '@ant-design/pro-utils';
+} from '@dz-web/antd-pro-utils';
 import type { RadioGroupProps } from 'antd';
 import { Cascader, ConfigProvider } from 'antd';
 import classNames from 'classnames';

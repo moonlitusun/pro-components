@@ -1,5 +1,5 @@
-import type { ProFormInstance } from '@ant-design/pro-components';
-import { ProTable } from '@ant-design/pro-components';
+import type { ProFormInstance } from '@dz-web/antd-pro-components';
+import { ProTable } from '@dz-web/antd-pro-components';
 import {
   act,
   cleanup,

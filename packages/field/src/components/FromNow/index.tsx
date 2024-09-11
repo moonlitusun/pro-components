@@ -1,5 +1,5 @@
-import { useIntl } from '@ant-design/pro-provider';
-import { compatibleBorder, parseValueToDay } from '@ant-design/pro-utils';
+import { useIntl } from '@dz-web/antd-pro-provider';
+import { compatibleBorder, parseValueToDay } from '@dz-web/antd-pro-utils';
 import { DatePicker, Tooltip } from 'antd';
 import dayjs from 'dayjs';
 import relativeTime from 'dayjs/plugin/relativeTime';

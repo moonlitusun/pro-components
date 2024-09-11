@@ -4,7 +4,7 @@ import {
   ProFormGroup,
   ProFormList,
   ProFormText,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import { Segmented } from 'antd';
 import { useState } from 'react';
 

@@ -1,5 +1,5 @@
-import type { ProHelpDataSourceChildren } from '@ant-design/pro-components';
-import { ProHelp, ProHelpPanel } from '@ant-design/pro-components';
+import type { ProHelpDataSourceChildren } from '@dz-web/antd-pro-components';
+import { ProHelp, ProHelpPanel } from '@dz-web/antd-pro-components';
 import { App, Rate, Typography } from 'antd';
 
 export default () => {

@@ -1,6 +1,6 @@
 // @vitest-environment node
 
-import ProForm, { DrawerForm, ModalForm } from '@ant-design/pro-form';
+import ProForm, { DrawerForm, ModalForm } from '@dz-web/antd-pro-form';
 import { renderToString } from 'react-dom/server';
 
 test('ssr', () => {

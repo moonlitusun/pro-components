@@ -4,7 +4,7 @@ import {
   FieldLabel,
   FilterDropdown,
   useMountMergeState,
-} from '@ant-design/pro-utils';
+} from '@dz-web/antd-pro-utils';
 import { ConfigProvider } from 'antd';
 import type { TooltipPlacement } from 'antd/lib/tooltip';
 import classNames from 'classnames';

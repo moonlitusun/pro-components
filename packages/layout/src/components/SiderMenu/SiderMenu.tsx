@@ -1,5 +1,5 @@
-import type { GenerateStyle } from '@ant-design/pro-provider';
-import { ProProvider } from '@ant-design/pro-provider';
+import type { GenerateStyle } from '@dz-web/antd-pro-provider';
+import { ProProvider } from '@dz-web/antd-pro-provider';
 import type { AvatarProps, SiderProps } from 'antd';
 import { Avatar, Layout, Menu, Space, version } from 'antd';
 import classNames from 'classnames';

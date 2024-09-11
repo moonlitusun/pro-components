@@ -11,7 +11,7 @@ const pkgList = readdirSync(join(__dirname, 'packages')).filter(
 );
 
 const alias = pkgList.reduce((pre, pkg) => {
-  pre[`@ant-design/pro-${pkg}`] = join(__dirname, 'packages', pkg, 'src');
+  pre[`@dz-web/antd-pro-${pkg}`] = join(__dirname, 'packages', pkg, 'src');
   return {
     ...pre,
   };
@@ -82,7 +82,7 @@ export default defineConfig({
   themeConfig: {
     lastUpdated: true,
     hero: {
-      title: 'ProComponents',
+      title: 'Antd ProComponents',
       description: '🏆 让中后台开发更简单',
       actions: {
         text: '🏮🏮 快速开始 →',
@@ -132,7 +132,7 @@ export default defineConfig({
       },
     ],
     siteToken: { demoInheritSiteTheme: true },
-    name: 'ProComponents',
+    name: 'Antd ProComponents',
     logo: 'https://gw.alipayobjects.com/zos/antfincdn/upvrAjAPQX/Logo_Tech%252520UI.svg',
     socialLinks: {
       github: 'https://github.com/ant-design/pro-components',
@@ -142,11 +142,7 @@ export default defineConfig({
         { title: '文档', link: '/docs' },
         { title: '组件', link: '/components' },
         { title: 'Changelog', link: '/changelog' },
-        { title: 'Playground', link: '/playground' },
-        {
-          title: '国内镜像',
-          link: 'https://pro-components.antdigital.dev',
-        },
+        { title: 'Playground', link: '/playground' }
       ],
       'en-US': [
         { title: 'Docs', link: '/en-US/docs' },

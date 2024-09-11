@@ -2,7 +2,7 @@ import {
   FooterToolbar,
   PageContainer,
   ProLayout,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import {
   act,
   cleanup,

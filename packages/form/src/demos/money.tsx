@@ -1,9 +1,9 @@
-import type { ProFormInstance } from '@ant-design/pro-components';
+import type { ProFormInstance } from '@dz-web/antd-pro-components';
 import {
   ProForm,
   ProFormMoney,
   ProFormSwitch,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import { message } from 'antd';
 import { useRef, useState } from 'react';
 

@@ -1,5 +1,5 @@
 import { FullscreenOutlined, SettingOutlined } from '@ant-design/icons';
-import ProTable, { ListToolBar } from '@ant-design/pro-table';
+import ProTable, { ListToolBar } from '@dz-web/antd-pro-table';
 import { act, cleanup, fireEvent, render } from '@testing-library/react';
 import { Button, Input } from 'antd';
 import { waitForWaitTime } from '../util';

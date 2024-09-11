@@ -1,7 +1,7 @@
 import {
   FormControlRender,
   pickControlPropsWithId,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import { Button, Checkbox, Form } from 'antd';
 import React, { useEffect } from 'react';
 

@@ -1,7 +1,7 @@
 ﻿import ProForm, {
   ProFormUploadButton,
   ProFormUploadDragger,
-} from '@ant-design/pro-form';
+} from '@dz-web/antd-pro-form';
 import { act, cleanup, fireEvent, render } from '@testing-library/react';
 import { Form } from 'antd';
 import type { UploadFile } from 'antd/lib/upload/interface';

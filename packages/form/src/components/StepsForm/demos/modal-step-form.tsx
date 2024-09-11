@@ -8,7 +8,7 @@ import {
   ProFormText,
   ProFormTextArea,
   StepsForm,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import { Button, Modal, message } from 'antd';
 import { useState } from 'react';
 

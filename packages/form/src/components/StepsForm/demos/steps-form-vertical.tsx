@@ -1,4 +1,4 @@
-import type { ProFormInstance } from '@ant-design/pro-components';
+import type { ProFormInstance } from '@dz-web/antd-pro-components';
 import {
   ProCard,
   ProForm,
@@ -8,7 +8,7 @@ import {
   ProFormText,
   ProFormTextArea,
   StepsForm,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import { message } from 'antd';
 import { useRef } from 'react';
 

@@ -1,5 +1,5 @@
 import { EllipsisOutlined } from '@ant-design/icons';
-import { ProList } from '@ant-design/pro-components';
+import { ProList } from '@dz-web/antd-pro-components';
 import { Progress, Tag } from 'antd';
 
 const data = [

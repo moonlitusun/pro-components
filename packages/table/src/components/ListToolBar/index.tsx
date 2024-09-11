@@ -1,5 +1,5 @@
-import { proTheme, useIntl } from '@ant-design/pro-provider';
-import { LabelIconTip, compareVersions } from '@ant-design/pro-utils';
+import { proTheme, useIntl } from '@dz-web/antd-pro-provider';
+import { LabelIconTip, compareVersions } from '@dz-web/antd-pro-utils';
 import {
   ConfigProvider,
   Input,

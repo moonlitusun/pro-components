@@ -1,4 +1,4 @@
-import { ProFormGroup, ProFormText, QueryFilter } from '@ant-design/pro-form';
+import { ProFormGroup, ProFormText, QueryFilter } from '@dz-web/antd-pro-form';
 import { cleanup, fireEvent, render, waitFor } from '@testing-library/react';
 
 afterEach(() => {

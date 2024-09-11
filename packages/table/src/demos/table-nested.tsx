@@ -1,6 +1,6 @@
 import { DownOutlined } from '@ant-design/icons';
-import type { ProColumns } from '@ant-design/pro-components';
-import { ProTable } from '@ant-design/pro-components';
+import type { ProColumns } from '@dz-web/antd-pro-components';
+import { ProTable } from '@dz-web/antd-pro-components';
 import { Button, Tag } from 'antd';
 
 export type Status = {

@@ -5,7 +5,7 @@ import {
   ProForm,
   ProFormList,
   ProFormText,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import { Button } from 'antd';
 
 // 弹窗表单

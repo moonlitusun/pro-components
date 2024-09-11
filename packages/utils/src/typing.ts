@@ -9,7 +9,7 @@ import type { UseEditableUtilType } from './useEditableArray';
 //@ts-ignore
 import type { SketchPickerProps } from '@chenshuai2144/sketch-color';
 
-import type { ProSchemaValueEnumType } from '@ant-design/pro-provider';
+import type { ProSchemaValueEnumType } from '@dz-web/antd-pro-provider';
 import type {
   AvatarProps,
   CascaderProps,

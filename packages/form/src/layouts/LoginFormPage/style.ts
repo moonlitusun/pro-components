@@ -3,7 +3,7 @@
   ProAliasToken,
   setAlpha,
   useStyle as useAntdStyle,
-} from '@ant-design/pro-provider';
+} from '@dz-web/antd-pro-provider';
 
 export interface LoginFormToken extends ProAliasToken {
   componentCls: string;

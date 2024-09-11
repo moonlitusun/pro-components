@@ -34,10 +34,10 @@
 
 ## 📦 安装
 
-安装 `@ant-design/pro-components`，请运行以下命令：
+安装 `@dz-web/antd-pro-components`，请运行以下命令：
 
 ```bash
-$ pnpm install @ant-design/pro-components
+$ pnpm install @dz-web/antd-pro-components
 ```
 
 <br/>
@@ -191,10 +191,10 @@ Copyright © 2023 - present [AFX][ant-design-link] & [Ant Digital](https://antdi
 [github-releasedate-shield]: https://img.shields.io/github/release-date/ant-design/pro-components?color=1677FF&labelColor=black&style=flat-square
 [github-stars-link]: https://github.com/ant-design/pro-components/network/stargazers
 [github-stars-shield]: https://img.shields.io/github/stars/ant-design/pro-components?color=1677FF&labelColor=black&style=flat-square
-[npm-downloads-link]: https://www.npmjs.com/package/@ant-design/pro-components
-[npm-downloads-shield]: https://img.shields.io/npm/dt/@ant-design/pro-components?labelColor=black&style=flat-square&color=1677FF
-[npm-release-link]: https://www.npmjs.com/package/@ant-design/pro-components
-[npm-release-shield]: https://img.shields.io/npm/v/@ant-design/pro-components?color=1677FF&labelColor=black&logo=npm&logoColor=white&style=flat-square
+[npm-downloads-link]: https://www.npmjs.com/package/@dz-web/antd-pro-components
+[npm-downloads-shield]: https://img.shields.io/npm/dt/@dz-web/antd-pro-components?labelColor=black&style=flat-square&color=1677FF
+[npm-release-link]: https://www.npmjs.com/package/@dz-web/antd-pro-components
+[npm-release-shield]: https://img.shields.io/npm/v/@dz-web/antd-pro-components?color=1677FF&labelColor=black&logo=npm&logoColor=white&style=flat-square
 [pr-welcome-link]: https://github.com/ant-design/pro-components/pulls
 [pr-welcome-shield]: https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F%20PR%20WELCOME-%E2%86%92-1677FF?labelColor=black&style=for-the-badge
 

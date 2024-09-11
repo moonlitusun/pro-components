@@ -1,6 +1,6 @@
 import { CheckOutlined, CloseOutlined, EditOutlined } from '@ant-design/icons';
-import ProForm, { ProFormField } from '@ant-design/pro-form';
-import ProSkeleton from '@ant-design/pro-skeleton';
+import ProForm, { ProFormField } from '@dz-web/antd-pro-form';
+import ProSkeleton from '@dz-web/antd-pro-skeleton';
 import type {
   ProCoreActionType,
   ProFieldValueType,
@@ -8,7 +8,7 @@ import type {
   ProSchemaComponentTypes,
   RowEditableConfig,
   UseEditableMapUtilType,
-} from '@ant-design/pro-utils';
+} from '@dz-web/antd-pro-utils';
 import {
   ErrorBoundary,
   InlineErrorFormItem,
@@ -18,7 +18,7 @@ import {
   getFieldPropsOrFormItemProps,
   stringify,
   useEditableMap,
-} from '@ant-design/pro-utils';
+} from '@dz-web/antd-pro-utils';
 import type { DescriptionsProps, FormInstance, FormProps } from 'antd';
 import { ConfigProvider, Descriptions, Space, version } from 'antd';
 import type { LabelTooltipType } from 'antd/lib/form/FormItemLabel';
@@ -29,8 +29,8 @@ import type { RequestData } from './useFetchData';
 import useFetchData from './useFetchData';
 
 // 兼容代码-----------
-import type { ProFieldFCMode } from '@ant-design/pro-provider';
-import { proTheme } from '@ant-design/pro-provider';
+import type { ProFieldFCMode } from '@dz-web/antd-pro-provider';
+import { proTheme } from '@dz-web/antd-pro-provider';
 import type { DescriptionsItemType } from 'antd/es/descriptions';
 import 'antd/lib/descriptions/style';
 //----------------------

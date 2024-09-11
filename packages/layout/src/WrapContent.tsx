@@ -1,5 +1,5 @@
-import { ProProvider } from '@ant-design/pro-provider';
-import { ErrorBoundary } from '@ant-design/pro-utils';
+import { ProProvider } from '@dz-web/antd-pro-provider';
+import { ErrorBoundary } from '@dz-web/antd-pro-utils';
 import { Layout } from 'antd';
 import classNames from 'classnames';
 import type { CSSProperties } from 'react';

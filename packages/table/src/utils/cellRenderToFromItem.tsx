@@ -1,16 +1,16 @@
-import type { ProFieldEmptyText } from '@ant-design/pro-field';
-import type { ProFormFieldProps } from '@ant-design/pro-form';
-import { FieldContext, ProForm, ProFormField } from '@ant-design/pro-form';
+import type { ProFieldEmptyText } from '@dz-web/antd-pro-field';
+import type { ProFormFieldProps } from '@dz-web/antd-pro-form';
+import { FieldContext, ProForm, ProFormField } from '@dz-web/antd-pro-form';
 import type {
   ProFieldValueType,
   ProSchemaComponentTypes,
   UseEditableUtilType,
-} from '@ant-design/pro-utils';
+} from '@dz-web/antd-pro-utils';
 import {
   InlineErrorFormItem,
   getFieldPropsOrFormItemProps,
   runFunction,
-} from '@ant-design/pro-utils';
+} from '@dz-web/antd-pro-utils';
 import { Form } from 'antd';
 import get from 'rc-util/lib/utils/get';
 import React, {

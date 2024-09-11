@@ -1,4 +1,4 @@
-﻿import { getPageTitle } from '@ant-design/pro-components';
+﻿import { getPageTitle } from '@dz-web/antd-pro-components';
 import { cleanup } from '@testing-library/react';
 
 const pageProps = {

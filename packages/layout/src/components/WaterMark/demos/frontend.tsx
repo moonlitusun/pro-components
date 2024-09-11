@@ -1,12 +1,12 @@
 /** Title: 前置水印 */
-import type { ProColumns } from '@ant-design/pro-components';
+import type { ProColumns } from '@dz-web/antd-pro-components';
 import {
   LightFilter,
   ProFormDatePicker,
   ProTable,
   TableDropdown,
   WaterMark,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 
 const valueEnum = {
   0: 'close',

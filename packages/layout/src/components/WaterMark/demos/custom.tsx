@@ -8,7 +8,7 @@ import {
   ProFormSlider,
   ProFormText,
   WaterMark,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import { Divider } from 'antd';
 import { AggregationColor } from 'antd/es/color-picker/color';
 

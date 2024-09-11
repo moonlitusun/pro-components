@@ -1,4 +1,4 @@
-import { pickControlProps, useControlModel } from '@ant-design/pro-form';
+import { pickControlProps, useControlModel } from '@dz-web/antd-pro-form';
 import { cleanup, renderHook } from '@testing-library/react';
 
 afterEach(() => {

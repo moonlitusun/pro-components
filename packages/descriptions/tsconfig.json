@@ -14,12 +14,12 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "paths": {
-      "@ant-design/pro-form": ["../../packages/form/src/index.tsx"],
-      "@ant-design/pro-table": ["../../packages/table/src/index.tsx"],
-      "@ant-design/pro-field": ["../../packages/field/src/index.tsx"],
-      "@ant-design/pro-provider": ["../../packages/provider/src/index.tsx"],
-      "@ant-design/pro-skeleton": ["../../packages/skeleton/src/index.tsx"],
-      "@ant-design/pro-utils": ["../../packages/utils/src/index.tsx"]
+      "@dz-web/antd-pro-form": ["../../packages/form/src/index.tsx"],
+      "@dz-web/antd-pro-table": ["../../packages/table/src/index.tsx"],
+      "@dz-web/antd-pro-field": ["../../packages/field/src/index.tsx"],
+      "@dz-web/antd-pro-provider": ["../../packages/provider/src/index.tsx"],
+      "@dz-web/antd-pro-skeleton": ["../../packages/skeleton/src/index.tsx"],
+      "@dz-web/antd-pro-utils": ["../../packages/utils/src/index.tsx"]
     }
   },
   "include": ["./src"]

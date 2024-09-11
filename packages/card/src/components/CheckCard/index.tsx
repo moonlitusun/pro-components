@@ -1,4 +1,4 @@
-import { useMountMergeState } from '@ant-design/pro-utils';
+import { useMountMergeState } from '@dz-web/antd-pro-utils';
 import { Avatar, ConfigProvider } from 'antd';
 import classNames from 'classnames';
 import type { MouseEventHandler } from 'react';

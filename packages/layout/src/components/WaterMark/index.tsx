@@ -1,4 +1,4 @@
-import { useToken } from '@ant-design/pro-provider';
+import { useToken } from '@dz-web/antd-pro-provider';
 import { ConfigProvider } from 'antd';
 
 import classNames from 'classnames';

@@ -1,19 +1,19 @@
-# @ant-design/pro-components
+# @dz-web/antd-pro-components
 
-> @ant-design/pro-components.
+> @dz-web/antd-pro-components.
 
-See our website [@ant-design/pro-components](https://procomponent.ant.design/) for more information.
+See our website [@dz-web/antd-pro-components](https://procomponent.ant.design/) for more information.
 
 ## Install
 
 Using npm:
 
 ```bash
-$ npm install --save  @ant-design/pro-components
+$ npm install --save  @dz-web/antd-pro-components
 ```
 
 or using yarn:
 
 ```bash
-$ yarn add @ant-design/pro-components
+$ yarn add @dz-web/antd-pro-components
 ```

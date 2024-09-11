@@ -1,4 +1,4 @@
-import Field from '@ant-design/pro-field';
+import Field from '@dz-web/antd-pro-field';
 import { cleanup, render } from '@testing-library/react';
 
 afterEach(() => {

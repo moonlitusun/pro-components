@@ -22,7 +22,7 @@ import {
   transformKeySubmitValue,
   useDebounceFn,
   useDebounceValue,
-} from '@ant-design/pro-utils';
+} from '@dz-web/antd-pro-utils';
 import {
   act,
   cleanup,

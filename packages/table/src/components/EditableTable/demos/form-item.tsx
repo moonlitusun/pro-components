@@ -2,7 +2,7 @@
   EditableFormInstance,
   ProColumns,
   ProFormInstance,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import {
   EditableProTable,
   ProCard,
@@ -11,7 +11,7 @@ import {
   ProFormField,
   ProFormSegmented,
   ProFormSwitch,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import { Button } from 'antd';
 import React, { useRef, useState } from 'react';
 

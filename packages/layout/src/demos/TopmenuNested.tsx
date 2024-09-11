@@ -1,4 +1,4 @@
-import { PageContainer, ProLayout } from '@ant-design/pro-components';
+import { PageContainer, ProLayout } from '@dz-web/antd-pro-components';
 import complexMenu from './complexMenu';
 
 export default () => (

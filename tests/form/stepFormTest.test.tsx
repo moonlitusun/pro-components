@@ -1,4 +1,4 @@
-﻿import { ProFormText, StepsForm } from '@ant-design/pro-form';
+﻿import { ProFormText, StepsForm } from '@dz-web/antd-pro-form';
 import {
   act,
   cleanup,

@@ -3,7 +3,7 @@
   omitUndefined,
   openVisibleCompatible,
   useRefFunction,
-} from '@ant-design/pro-utils';
+} from '@dz-web/antd-pro-utils';
 import type { DrawerProps, FormProps } from 'antd';
 import { ConfigProvider, Drawer } from 'antd';
 import classNames from 'classnames';

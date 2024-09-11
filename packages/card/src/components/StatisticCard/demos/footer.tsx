@@ -1,5 +1,5 @@
 import { EllipsisOutlined } from '@ant-design/icons';
-import { StatisticCard } from '@ant-design/pro-components';
+import { StatisticCard } from '@dz-web/antd-pro-components';
 
 const { Statistic } = StatisticCard;
 

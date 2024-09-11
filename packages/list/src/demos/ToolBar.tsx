@@ -1,5 +1,5 @@
-import type { ActionType } from '@ant-design/pro-components';
-import { ProList } from '@ant-design/pro-components';
+import type { ActionType } from '@dz-web/antd-pro-components';
+import { ProList } from '@dz-web/antd-pro-components';
 import { Badge, Button } from 'antd';
 import React, { useRef, useState } from 'react';
 

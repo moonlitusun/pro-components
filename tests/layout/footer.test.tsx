@@ -1,4 +1,4 @@
-import { DefaultFooter } from '@ant-design/pro-components';
+import { DefaultFooter } from '@dz-web/antd-pro-components';
 import { cleanup, render } from '@testing-library/react';
 
 afterEach(() => {

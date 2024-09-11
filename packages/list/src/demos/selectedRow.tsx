@@ -1,4 +1,4 @@
-import { ProList } from '@ant-design/pro-components';
+import { ProList } from '@dz-web/antd-pro-components';
 import { Button, Progress } from 'antd';
 import type { Key } from 'react';
 import { useState } from 'react';

@@ -1,4 +1,4 @@
-import { ProForm, ProFormCaptcha } from '@ant-design/pro-components';
+import { ProForm, ProFormCaptcha } from '@dz-web/antd-pro-components';
 import { Button, message } from 'antd';
 import { useRef } from 'react';
 

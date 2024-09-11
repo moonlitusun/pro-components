@@ -1,17 +1,17 @@
-# @ant-design/pro-field
+# @dz-web/antd-pro-field
 
-See our website [@ant-design/pro-field](https://procomponent.ant.design/) for more information.
+See our website [@dz-web/antd-pro-field](https://procomponent.ant.design/) for more information.
 
 ## Install
 
 Using npm:
 
 ```bash
-$ npm install --save  @ant-design/pro-field
+$ npm install --save  @dz-web/antd-pro-field
 ```
 
 or using yarn:
 
 ```bash
-$ yarn add  @ant-design/pro-field
+$ yarn add  @dz-web/antd-pro-field
 ```

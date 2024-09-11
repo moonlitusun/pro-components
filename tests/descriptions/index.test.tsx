@@ -1,5 +1,5 @@
-import ProDescriptions from '@ant-design/pro-descriptions';
-import type { ProCoreActionType } from '@ant-design/pro-utils';
+import ProDescriptions from '@dz-web/antd-pro-descriptions';
+import type { ProCoreActionType } from '@dz-web/antd-pro-utils';
 import { act, cleanup, render, waitFor } from '@testing-library/react';
 import { Button, Input } from 'antd';
 import React from 'react';

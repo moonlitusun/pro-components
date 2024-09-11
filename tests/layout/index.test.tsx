@@ -3,8 +3,8 @@ import {
   InfoCircleFilled,
   QuestionCircleFilled,
 } from '@ant-design/icons';
-import { ProLayout } from '@ant-design/pro-components';
-import { LoginForm, ProFormText } from '@ant-design/pro-form';
+import { ProLayout } from '@dz-web/antd-pro-components';
+import { LoginForm, ProFormText } from '@dz-web/antd-pro-form';
 import {
   act,
   cleanup,

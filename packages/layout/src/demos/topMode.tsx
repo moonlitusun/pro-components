@@ -7,8 +7,8 @@ import {
   QuestionCircleFilled,
   SearchOutlined,
 } from '@ant-design/icons';
-import type { ProSettings } from '@ant-design/pro-components';
-import { PageContainer, ProCard, ProLayout } from '@ant-design/pro-components';
+import type { ProSettings } from '@dz-web/antd-pro-components';
+import { PageContainer, ProCard, ProLayout } from '@dz-web/antd-pro-components';
 import { css } from '@emotion/css';
 import { Divider, Input, Popover, theme } from 'antd';
 import { useState } from 'react';

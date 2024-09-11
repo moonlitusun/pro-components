@@ -1,6 +1,6 @@
 ﻿import { CloseOutlined, SnippetsOutlined } from '@ant-design/icons';
-import { ProCard } from '@ant-design/pro-components';
-import type { FormListActionType } from '@ant-design/pro-form';
+import { ProCard } from '@dz-web/antd-pro-components';
+import type { FormListActionType } from '@dz-web/antd-pro-form';
 import ProForm, {
   ModalForm,
   ProFormDatePicker,
@@ -9,7 +9,7 @@ import ProForm, {
   ProFormList,
   ProFormText,
   StepsForm,
-} from '@ant-design/pro-form';
+} from '@dz-web/antd-pro-form';
 import {
   act,
   cleanup,

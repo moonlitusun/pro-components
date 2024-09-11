@@ -1,4 +1,4 @@
-import ProTable from '@ant-design/pro-table';
+import ProTable from '@dz-web/antd-pro-table';
 import {
   act,
   cleanup,

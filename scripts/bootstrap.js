@@ -10,8 +10,9 @@ const { yParser } = require('@umijs/utils');
     (pkg) => pkg.charAt(0) !== '.',
   );
 
+  console.log('pkgs', pkgs);
   pkgs.forEach((shortName) => {
-    const name = `@ant-design/pro-${shortName}`;
+    const name = `@dz-web/antd-pro-${shortName}`;
 
     const pkgJSONPath = join(
       __dirname,
@@ -20,6 +21,7 @@ const { yParser } = require('@umijs/utils');
       shortName,
       'package.json',
     );
+    console.log('pkgJSONPath', pkgJSONPath);
     const pkgJSONExists = existsSync(pkgJSONPath);
     let json;
     if (args.force || !pkgJSONExists) {
@@ -54,6 +56,7 @@ const { yParser } = require('@umijs/utils');
       writeFileSync(pkgJSONPath, `${JSON.stringify(json, null, 2)}\n`);
     } else if (pkgJSONExists) {
       const pkg = require(pkgJSONPath);
+      console.log('pkg', pkg);
       [
         'dependencies',
         'devDependencies',

@@ -2,7 +2,7 @@
   objectToMap,
   proFieldParsingText,
   useStyle,
-} from '@ant-design/pro-utils';
+} from '@dz-web/antd-pro-utils';
 import { Checkbox, ConfigProvider, Form, Spin } from 'antd';
 import type { CheckboxGroupProps } from 'antd/lib/checkbox';
 import classNames from 'classnames';
@@ -16,7 +16,7 @@ export type GroupProps = {
 } & FieldSelectProps;
 
 // 兼容代码-----------
-import { useToken } from '@ant-design/pro-provider';
+import { useToken } from '@dz-web/antd-pro-provider';
 import 'antd/lib/checkbox/style';
 //----------------------
 /**

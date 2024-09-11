@@ -1,4 +1,4 @@
-import { useStyle } from '@ant-design/pro-utils';
+import { useStyle } from '@dz-web/antd-pro-utils';
 import { ConfigProvider } from 'antd';
 import classNames from 'classnames';
 import React, { useContext } from 'react';

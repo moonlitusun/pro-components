@@ -4,7 +4,7 @@ import type {
   ProFormBaseGroupProps,
   ProSchema,
   SearchConvertKeyFn,
-} from '@ant-design/pro-utils';
+} from '@dz-web/antd-pro-utils';
 import type { ColProps, FormItemProps, RowProps } from 'antd';
 import type React from 'react';
 import type { ProFormInstance } from './BaseForm';

@@ -2,7 +2,7 @@ import {
   objectToMap,
   proFieldParsingText,
   useStyle,
-} from '@ant-design/pro-utils';
+} from '@dz-web/antd-pro-utils';
 import type { RadioGroupProps } from 'antd';
 import { ConfigProvider, Form, Radio, Spin } from 'antd';
 import classNames from 'classnames';

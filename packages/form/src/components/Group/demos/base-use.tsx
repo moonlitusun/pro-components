@@ -3,7 +3,7 @@
   ProFormDependency,
   ProFormList,
   ProFormText,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import { Button } from 'antd';
 
 const Demo = () => {

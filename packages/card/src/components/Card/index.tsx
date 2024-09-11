@@ -1,5 +1,5 @@
 import { RightOutlined } from '@ant-design/icons';
-import { LabelIconTip } from '@ant-design/pro-utils';
+import { LabelIconTip } from '@dz-web/antd-pro-utils';
 import { ConfigProvider, Tabs } from 'antd';
 
 import useBreakpoint from 'antd/es/grid/hooks/useBreakpoint';

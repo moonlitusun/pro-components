@@ -1,6 +1,6 @@
 import { PlusCircleFilled, SearchOutlined } from '@ant-design/icons';
-import type { MenuDataItem } from '@ant-design/pro-components';
-import { PageContainer, ProLayout } from '@ant-design/pro-components';
+import type { MenuDataItem } from '@dz-web/antd-pro-components';
+import { PageContainer, ProLayout } from '@dz-web/antd-pro-components';
 import { Input, Space } from 'antd';
 import { useState } from 'react';
 import complexMenu from './complexMenu';

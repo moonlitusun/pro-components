@@ -1,6 +1,6 @@
 ﻿import { CloseOutlined, ProfileOutlined } from '@ant-design/icons';
-import { ProProvider, isNeedOpenHash } from '@ant-design/pro-provider';
-import { coverToNewToken } from '@ant-design/pro-utils';
+import { ProProvider, isNeedOpenHash } from '@dz-web/antd-pro-provider';
+import { coverToNewToken } from '@dz-web/antd-pro-utils';
 import { Card, ConfigProvider, Menu } from 'antd';
 import useMergedState from 'rc-util/es/hooks/useMergedState';
 import React, { useContext, useMemo, useState } from 'react';

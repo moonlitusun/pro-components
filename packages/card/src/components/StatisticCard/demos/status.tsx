@@ -1,4 +1,4 @@
-import { StatisticCard } from '@ant-design/pro-components';
+import { StatisticCard } from '@dz-web/antd-pro-components';
 
 const { Divider } = StatisticCard;
 

@@ -14,7 +14,7 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "paths": {
-      "@ant-design/pro-provider": ["../../packages/provider/src/index.tsx"]
+      "@dz-web/antd-pro-provider": ["../../packages/provider/src/index.tsx"]
     }
   },
   "include": ["./src"]

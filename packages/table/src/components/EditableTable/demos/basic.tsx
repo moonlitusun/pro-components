@@ -1,10 +1,10 @@
-import type { ProColumns } from '@ant-design/pro-components';
+import type { ProColumns } from '@dz-web/antd-pro-components';
 import {
   EditableProTable,
   ProCard,
   ProFormField,
   ProFormRadio,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import React, { useState } from 'react';
 
 const waitTime = (time: number = 100) => {

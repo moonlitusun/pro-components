@@ -1,9 +1,9 @@
 ﻿import type {
   ProFormColumnsType,
   ProFormLayoutType,
-} from '@ant-design/pro-form';
-import { BetaSchemaForm } from '@ant-design/pro-form';
-import { ProProvider } from '@ant-design/pro-provider';
+} from '@dz-web/antd-pro-form';
+import { BetaSchemaForm } from '@dz-web/antd-pro-form';
+import { ProProvider } from '@dz-web/antd-pro-provider';
 import {
   act,
   cleanup,

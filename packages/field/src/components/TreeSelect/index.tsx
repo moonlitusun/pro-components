@@ -1,9 +1,9 @@
-import { useIntl } from '@ant-design/pro-provider';
+import { useIntl } from '@dz-web/antd-pro-provider';
 import {
   FieldLabel,
   objectToMap,
   proFieldParsingText,
-} from '@ant-design/pro-utils';
+} from '@dz-web/antd-pro-utils';
 import type { RadioGroupProps, TreeSelectProps } from 'antd';
 import { ConfigProvider, Spin, TreeSelect } from 'antd';
 import classNames from 'classnames';

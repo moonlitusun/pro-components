@@ -1,6 +1,6 @@
 // import { LoadingOutlined, ReloadOutlined } from '@ant-design/icons';
-import type { ProColumns, ProFormInstance } from '@ant-design/pro-components';
-import { ProTable } from '@ant-design/pro-components';
+import type { ProColumns, ProFormInstance } from '@dz-web/antd-pro-components';
+import { ProTable } from '@dz-web/antd-pro-components';
 import { act, cleanup, render } from '@testing-library/react';
 import { Button } from 'antd';
 import { useRef, useState } from 'react';

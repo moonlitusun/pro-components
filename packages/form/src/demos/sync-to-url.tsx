@@ -3,7 +3,7 @@ import {
   ProFormDatePicker,
   ProFormDateRangePicker,
   ProFormSelect,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import { message } from 'antd';
 
 export default () => {

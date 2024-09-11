@@ -1,12 +1,12 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { ProConfigProvider } from '@ant-design/pro-provider';
+import { ProConfigProvider } from '@dz-web/antd-pro-provider';
 import type {
   ProFieldProps,
   ProFieldValueType,
   ProFormInstanceType,
   ProRequestData,
   SearchTransformKeyFn,
-} from '@ant-design/pro-utils';
+} from '@dz-web/antd-pro-utils';
 import {
   ProFormContext,
   conversionMomentValue,
@@ -19,7 +19,7 @@ import {
   usePrevious,
   useRefFunction,
   useStyle,
-} from '@ant-design/pro-utils';
+} from '@dz-web/antd-pro-utils';
 import { useUrlSearchParams } from '@umijs/use-params';
 import type { FormInstance, FormItemProps, FormProps } from 'antd';
 import { ConfigProvider, Form, Spin } from 'antd';

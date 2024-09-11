@@ -3,8 +3,8 @@
   DeleteOutlined,
   LoadingOutlined,
 } from '@ant-design/icons';
-import { ProProvider } from '@ant-design/pro-provider';
-import { SearchTransformKeyFn } from '@ant-design/pro-utils';
+import { ProProvider } from '@dz-web/antd-pro-provider';
+import { SearchTransformKeyFn } from '@dz-web/antd-pro-utils';
 import type { ButtonProps, FormInstance } from 'antd';
 import { ConfigProvider, Tooltip } from 'antd';
 import type {

@@ -1,4 +1,4 @@
-﻿import { PageHeader } from '@ant-design/pro-components';
+﻿import { PageHeader } from '@dz-web/antd-pro-components';
 import { act, cleanup, fireEvent, render } from '@testing-library/react';
 import { Breadcrumb, ConfigProvider } from 'antd';
 import { _rs as onEsResize } from 'rc-resize-observer/es/utils/observerUtil';

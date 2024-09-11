@@ -1,5 +1,5 @@
-import type { ProSettings } from '@ant-design/pro-components';
-import { ProConfigProvider, ProLayout } from '@ant-design/pro-components';
+import type { ProSettings } from '@dz-web/antd-pro-components';
+import { ProConfigProvider, ProLayout } from '@dz-web/antd-pro-components';
 import defaultProps from './_defaultProps';
 
 const AppGroupList: any = [

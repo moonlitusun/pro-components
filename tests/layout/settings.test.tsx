@@ -1,4 +1,4 @@
-import { ProLayout } from '@ant-design/pro-components';
+import { ProLayout } from '@dz-web/antd-pro-components';
 import { cleanup, render } from '@testing-library/react';
 import { waitForWaitTime } from '../util';
 

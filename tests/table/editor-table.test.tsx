@@ -1,10 +1,10 @@
-import ProForm, { ProFormText } from '@ant-design/pro-form';
+import ProForm, { ProFormText } from '@dz-web/antd-pro-form';
 import type {
   ActionType,
   EditableFormInstance,
   ProColumns,
-} from '@ant-design/pro-table';
-import { EditableProTable } from '@ant-design/pro-table';
+} from '@dz-web/antd-pro-table';
+import { EditableProTable } from '@dz-web/antd-pro-table';
 import {
   act,
   cleanup,

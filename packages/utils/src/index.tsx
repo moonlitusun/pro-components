@@ -21,7 +21,7 @@ import {
   resetComponent,
   setAlpha,
   useStyle,
-} from '@ant-design/pro-provider';
+} from '@dz-web/antd-pro-provider';
 import { compareVersions } from './compareVersions';
 import { coverToNewToken } from './compareVersions/coverToNewToken';
 import { menuOverlayCompatible } from './compareVersions/menuOverlayCompatible';

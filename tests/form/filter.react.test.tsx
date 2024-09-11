@@ -4,7 +4,7 @@ import {
   ProFormText,
   ProFormTreeSelect,
   QueryFilter,
-} from '@ant-design/pro-form';
+} from '@dz-web/antd-pro-form';
 import {
   act,
   cleanup,

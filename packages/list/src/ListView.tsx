@@ -1,6 +1,6 @@
-import type { CheckCardProps } from '@ant-design/pro-card';
-import { ProProvider } from '@ant-design/pro-provider';
-import type { ActionType } from '@ant-design/pro-table';
+import type { CheckCardProps } from '@dz-web/antd-pro-card';
+import { ProProvider } from '@dz-web/antd-pro-provider';
+import type { ActionType } from '@dz-web/antd-pro-table';
 import type {
   ListProps,
   TableColumnType,
@@ -20,7 +20,7 @@ import ProListItem from './Item';
 import { PRO_LIST_KEYS_MAP } from './constants';
 import type { GetComponentProps } from './index';
 
-import { compareVersions } from '@ant-design/pro-utils';
+import { compareVersions } from '@dz-web/antd-pro-utils';
 import type { AnyObject } from 'antd/es/_util/type';
 import type { PaginationConfig } from 'antd/lib/pagination';
 

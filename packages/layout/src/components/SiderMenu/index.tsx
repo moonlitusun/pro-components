@@ -1,5 +1,5 @@
-import { ProProvider } from '@ant-design/pro-provider';
-import { openVisibleCompatible } from '@ant-design/pro-utils';
+import { ProProvider } from '@dz-web/antd-pro-provider';
+import { openVisibleCompatible } from '@dz-web/antd-pro-utils';
 import { ConfigProvider, Drawer } from 'antd';
 import classNames from 'classnames';
 import Omit from 'omit.js';

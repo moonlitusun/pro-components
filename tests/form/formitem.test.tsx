@@ -1,4 +1,4 @@
-import ProForm, { ProFormText } from '@ant-design/pro-form';
+import ProForm, { ProFormText } from '@dz-web/antd-pro-form';
 import { cleanup, fireEvent, render } from '@testing-library/react';
 import { Input } from 'antd';
 

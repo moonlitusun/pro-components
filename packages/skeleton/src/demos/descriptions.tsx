@@ -1,4 +1,4 @@
-import ProSkeleton from '@ant-design/pro-skeleton';
+import ProSkeleton from '@dz-web/antd-pro-skeleton';
 
 export default () => {
   return (

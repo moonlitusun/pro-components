@@ -1,5 +1,5 @@
 import { SearchOutlined } from '@ant-design/icons';
-import { FieldLabel, compatibleBorder, useStyle } from '@ant-design/pro-utils';
+import { FieldLabel, compatibleBorder, useStyle } from '@dz-web/antd-pro-utils';
 import type { SelectProps } from 'antd';
 import { ConfigProvider, Input, Select } from 'antd';
 

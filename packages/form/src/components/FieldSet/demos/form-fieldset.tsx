@@ -4,7 +4,7 @@
   ProFormFieldSet,
   ProFormSelect,
   ProFormText,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import { Switch } from 'antd';
 import { useState } from 'react';
 

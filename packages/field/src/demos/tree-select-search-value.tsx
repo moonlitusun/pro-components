@@ -1,4 +1,4 @@
-﻿import { ProForm, ProFormTreeSelect } from '@ant-design/pro-components';
+﻿import { ProForm, ProFormTreeSelect } from '@dz-web/antd-pro-components';
 import { useState } from 'react';
 
 const treeData = [

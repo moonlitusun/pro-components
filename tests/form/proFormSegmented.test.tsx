@@ -1,4 +1,4 @@
-import ProForm, { ProFormSegmented } from '@ant-design/pro-form';
+import ProForm, { ProFormSegmented } from '@dz-web/antd-pro-form';
 import { cleanup, render } from '@testing-library/react';
 
 afterEach(() => {

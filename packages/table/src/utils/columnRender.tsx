@@ -1,11 +1,11 @@
-﻿import type { ProFieldEmptyText } from '@ant-design/pro-field';
+﻿import type { ProFieldEmptyText } from '@dz-web/antd-pro-field';
 import type {
   ProFieldValueType,
   ProSchemaComponentTypes,
   ProTableEditableFnType,
   UseEditableUtilType,
-} from '@ant-design/pro-utils';
-import { LabelIconTip, genCopyable, isNil } from '@ant-design/pro-utils';
+} from '@dz-web/antd-pro-utils';
+import { LabelIconTip, genCopyable, isNil } from '@dz-web/antd-pro-utils';
 import get from 'rc-util/lib/utils/get';
 import React from 'react';
 import { isMergeCell } from '.';

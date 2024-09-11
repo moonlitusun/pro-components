@@ -1,5 +1,5 @@
-﻿import type { GenerateStyle, ProAliasToken } from '@ant-design/pro-provider';
-import { useStyle as useAntdStyle } from '@ant-design/pro-utils';
+﻿import type { GenerateStyle, ProAliasToken } from '@dz-web/antd-pro-provider';
+import { useStyle as useAntdStyle } from '@dz-web/antd-pro-utils';
 
 export interface ProToken extends ProAliasToken {
   componentCls: string;

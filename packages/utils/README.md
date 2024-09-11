@@ -1,19 +1,19 @@
-# @ant-design/pro-utils
+# @dz-web/antd-pro-utils
 
-> @ant-design/pro-utils.
+> @dz-web/antd-pro-utils.
 
-See our website [@ant-design/pro-utils](https://procomponent.ant.design/) for more information.
+See our website [@dz-web/antd-pro-utils](https://procomponent.ant.design/) for more information.
 
 ## Install
 
 Using npm:
 
 ```bash
-$ npm install --save  @ant-design/pro-utils
+$ npm install --save  @dz-web/antd-pro-utils
 ```
 
 or using yarn:
 
 ```bash
-$ yarn add @ant-design/pro-utils
+$ yarn add @dz-web/antd-pro-utils
 ```

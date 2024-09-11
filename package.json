@@ -9,7 +9,7 @@
   "scripts": {
     "bootstrap": "node ./scripts/bootstrap.js",
     "build": "npm run version && npm run build-components && node ./scripts/readApi.mjs",
-    "build-components": "pnpm --filter \"@ant-design/**\" build",
+    "build-components": "pnpm --filter \"@dz-web/**\" build",
     "changelog": "node ./scripts/changelogs.js",
     "check-deps": "node ./scripts/checkDeps.js",
     "checkPublish": "npm run sync:tnpm && node ./scripts/checkPublish.js && npm run sync:tnpm",
@@ -23,6 +23,7 @@
     "publishOnly": "node ./scripts/release.js --publishOnly",
     "release": "npm run test && node ./scripts/release.js",
     "site": "npm run build && cross-env SITE_DEPLOY='TRUE' dumi build",
+    "site:pub": "dz-ud /ld/antd-pro-components ./dist http://antd-pro.dzfe.net",
     "start": "npm run version && dumi dev",
     "sync:tnpm": "node -e 'require(\"./scripts/syncTNPM\")()'",
     "test": "npm run version && cross-env TZ=UTC vitest --run",
@@ -31,7 +32,8 @@
     "tsc": "tsc --noEmit",
     "tsc:duplicate": "tsc -p ./tests/tsconfig.duplicate.json",
     "update:deps": "pnpm up --latest",
-    "version": "node ./scripts/gen_version.js"
+    "version": "node ./scripts/gen_version.js",
+    "pub": "pnpm -r exec -- pnpm publish --no-git-checks"
   },
   "browserslist": [
     "last 2 versions",
@@ -169,5 +171,5 @@
     "pre-commit": "pretty-quick --staged",
     "commit-msg": "fabric verify-commit"
   },
-  "packageManager": "pnpm@9.6.0"
+  "packageManager": "pnpm@9.1.0"
 }

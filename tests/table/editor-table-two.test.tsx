@@ -3,9 +3,9 @@ import type {
   EditableFormInstance,
   ProColumns,
   TableRowEditable,
-} from '@ant-design/pro-components';
-import { ProForm, ProFormText } from '@ant-design/pro-components';
-import { EditableProTable } from '@ant-design/pro-table';
+} from '@dz-web/antd-pro-components';
+import { ProForm, ProFormText } from '@dz-web/antd-pro-components';
+import { EditableProTable } from '@dz-web/antd-pro-table';
 import {
   act,
   cleanup,

@@ -1,4 +1,4 @@
-﻿import { ProLayout } from '@ant-design/pro-components';
+﻿import { ProLayout } from '@dz-web/antd-pro-components';
 import { act, cleanup, render, waitFor } from '@testing-library/react';
 import defaultProps from './defaultProps';
 

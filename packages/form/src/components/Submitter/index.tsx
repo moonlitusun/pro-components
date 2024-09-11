@@ -1,4 +1,4 @@
-import { proTheme, useIntl } from '@ant-design/pro-provider';
+import { proTheme, useIntl } from '@dz-web/antd-pro-provider';
 import type { ButtonProps } from 'antd';
 import { Button, Form } from 'antd';
 import omit from 'omit.js';

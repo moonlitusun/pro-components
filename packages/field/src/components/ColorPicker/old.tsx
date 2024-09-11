@@ -1,4 +1,4 @@
-﻿import { proTheme, useStyle } from '@ant-design/pro-provider';
+﻿import { proTheme, useStyle } from '@dz-web/antd-pro-provider';
 import type { SketchPickerProps } from '@chenshuai2144/sketch-color';
 import { SketchPicker } from '@chenshuai2144/sketch-color';
 import type { PopoverProps } from 'antd';

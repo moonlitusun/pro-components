@@ -1,6 +1,6 @@
 import { PlusOutlined } from '@ant-design/icons';
-import type { ActionType, ProColumns } from '@ant-design/pro-components';
-import { ProTable, TableDropdown } from '@ant-design/pro-components';
+import type { ActionType, ProColumns } from '@dz-web/antd-pro-components';
+import { ProTable, TableDropdown } from '@dz-web/antd-pro-components';
 import { Button, ConfigProvider, Input, Space, Tag } from 'antd';
 import { useRef } from 'react';
 

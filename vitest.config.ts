@@ -9,7 +9,7 @@ const pkgList = readdirSync(join(__dirname, './packages')).filter(
 const moduleNameMapper = {} as Record<string, any>;
 
 pkgList.forEach((shortName: string) => {
-  const name = `@ant-design/pro-${shortName}`;
+  const name = `@dz-web/antd-pro-${shortName}`;
   moduleNameMapper[name] = join(__dirname, `./packages/${shortName}/src`);
 });
 

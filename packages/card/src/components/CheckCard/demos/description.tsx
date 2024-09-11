@@ -1,4 +1,4 @@
-import { CheckCard } from '@ant-design/pro-components';
+import { CheckCard } from '@dz-web/antd-pro-components';
 import { Typography } from 'antd';
 
 const { Paragraph } = Typography;

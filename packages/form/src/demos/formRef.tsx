@@ -1,9 +1,9 @@
-import type { ProFormInstance } from '@ant-design/pro-components';
+import type { ProFormInstance } from '@dz-web/antd-pro-components';
 import {
   ProForm,
   ProFormDatePicker,
   ProFormText,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import { Button, message } from 'antd';
 import dayjs from 'dayjs';
 import { useRef } from 'react';

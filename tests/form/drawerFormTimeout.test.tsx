@@ -1,4 +1,4 @@
-﻿import { DrawerForm, ProFormText } from '@ant-design/pro-form';
+﻿import { DrawerForm, ProFormText } from '@dz-web/antd-pro-form';
 import { act, cleanup, render } from '@testing-library/react';
 
 afterEach(() => {

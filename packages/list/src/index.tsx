@@ -1,11 +1,11 @@
-import type { CheckCardProps } from '@ant-design/pro-card';
-import { ProConfigProvider } from '@ant-design/pro-provider';
+import type { CheckCardProps } from '@dz-web/antd-pro-card';
+import { ProConfigProvider } from '@dz-web/antd-pro-provider';
 import type {
   ActionType,
   ProColumnType,
   ProTableProps,
-} from '@ant-design/pro-table';
-import ProTable from '@ant-design/pro-table';
+} from '@dz-web/antd-pro-table';
+import ProTable from '@dz-web/antd-pro-table';
 import type { ListProps, PaginationProps } from 'antd';
 import { ConfigProvider } from 'antd';
 import type { LabelTooltipType } from 'antd/lib/form/FormItemLabel';

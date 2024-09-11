@@ -1,8 +1,8 @@
 ﻿import type {
   ProFormColumnsType,
   ProFormLayoutType,
-} from '@ant-design/pro-components';
-import { BetaSchemaForm, ProFormSelect } from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
+import { BetaSchemaForm, ProFormSelect } from '@dz-web/antd-pro-components';
 import { Alert, DatePicker, Space } from 'antd';
 import dayjs from 'dayjs';
 import { useState } from 'react';

@@ -1,5 +1,5 @@
-import type { ProColumns } from '@ant-design/pro-components';
-import { ProTable } from '@ant-design/pro-components';
+import type { ProColumns } from '@dz-web/antd-pro-components';
+import { ProTable } from '@dz-web/antd-pro-components';
 import { Space } from 'antd';
 import dayjs from 'dayjs';
 

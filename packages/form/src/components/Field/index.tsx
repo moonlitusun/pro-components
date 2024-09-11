@@ -1,10 +1,10 @@
-import ProField from '@ant-design/pro-field';
-import type { ProSchema } from '@ant-design/pro-utils';
+import ProField from '@dz-web/antd-pro-field';
+import type { ProSchema } from '@dz-web/antd-pro-utils';
 import {
   isDeepEqualReact,
   runFunction,
   useRefFunction,
-} from '@ant-design/pro-utils';
+} from '@dz-web/antd-pro-utils';
 import React, { memo, useContext, useMemo } from 'react';
 import { EditOrReadOnlyContext } from '../../BaseForm/EditOrReadOnlyContext';
 import { createField } from '../../BaseForm/createField';

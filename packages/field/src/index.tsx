@@ -2,8 +2,8 @@ import type {
   BaseProFieldFC,
   ProFieldFCRenderProps,
   ProRenderFieldPropsType,
-} from '@ant-design/pro-provider';
-import ProConfigContext from '@ant-design/pro-provider';
+} from '@dz-web/antd-pro-provider';
+import ProConfigContext from '@dz-web/antd-pro-provider';
 import {
   omitUndefined,
   pickProProps,
@@ -13,7 +13,7 @@ import {
   ProFieldValueType,
   useDeepCompareMemo,
   useRefFunction,
-} from '@ant-design/pro-utils';
+} from '@dz-web/antd-pro-utils';
 import { Avatar } from 'antd';
 import React, { useContext } from 'react';
 import FieldCascader from './components/Cascader';

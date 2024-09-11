@@ -1,4 +1,4 @@
-import { PageContainer, ProLayout } from '@ant-design/pro-components';
+import { PageContainer, ProLayout } from '@dz-web/antd-pro-components';
 import { cleanup, render } from '@testing-library/react';
 import { ActionsContent } from '../../packages/layout/src/components/GlobalHeader/ActionsContent';
 import defaultProps from './defaultProps';

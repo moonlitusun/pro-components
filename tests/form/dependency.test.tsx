@@ -2,7 +2,7 @@ import {
   ProForm,
   ProFormDependency,
   ProFormText,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import { act, cleanup, fireEvent, render } from '@testing-library/react';
 import { waitForWaitTime } from '../util';
 

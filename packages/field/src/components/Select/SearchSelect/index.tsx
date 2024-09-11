@@ -1,5 +1,5 @@
-import type { RequestOptionsType } from '@ant-design/pro-utils';
-import { nanoid } from '@ant-design/pro-utils';
+import type { RequestOptionsType } from '@dz-web/antd-pro-utils';
+import { nanoid } from '@dz-web/antd-pro-utils';
 import type { SelectProps } from 'antd';
 import { ConfigProvider, Select } from 'antd';
 

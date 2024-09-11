@@ -2,7 +2,7 @@ import {
   LightFilter,
   ProFormDateTimePicker,
   ProFormSelect,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 
 export default () => {
   return (

@@ -1,16 +1,16 @@
-import type { GenerateStyle, ProTokenType } from '@ant-design/pro-provider';
+import type { GenerateStyle, ProTokenType } from '@dz-web/antd-pro-provider';
 import {
   ProConfigProvider,
   ProProvider,
   isNeedOpenHash,
-} from '@ant-design/pro-provider';
+} from '@dz-web/antd-pro-provider';
 import {
   coverToNewToken,
   isBrowser,
   useBreakpoint,
   useDocumentTitle,
   useMountMergeState,
-} from '@ant-design/pro-utils';
+} from '@dz-web/antd-pro-utils';
 import { getMatchMenu } from '@umijs/route-utils';
 import type { BreadcrumbProps } from 'antd';
 import { ConfigProvider, Layout } from 'antd';

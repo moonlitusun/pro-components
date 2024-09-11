@@ -1,4 +1,4 @@
-import { runFunction } from '@ant-design/pro-utils';
+import { runFunction } from '@dz-web/antd-pro-utils';
 import type { RadioGroupProps, RadioProps } from 'antd';
 import { Radio } from 'antd';
 import React from 'react';

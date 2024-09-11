@@ -1,9 +1,9 @@
-import type { ProColumns } from '@ant-design/pro-components';
+import type { ProColumns } from '@dz-web/antd-pro-components';
 import {
   EditableProTable,
   ProCard,
   ProFormField,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import { Button } from 'antd';
 import React, { useState } from 'react';
 

@@ -7,7 +7,7 @@
   useLatest,
   useReactiveRef,
   useRefFunction,
-} from '@ant-design/pro-utils';
+} from '@dz-web/antd-pro-utils';
 import type { FormProps } from 'antd';
 import { Form } from 'antd';
 import React, {

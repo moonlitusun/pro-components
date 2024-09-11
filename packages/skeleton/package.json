@@ -1,7 +1,7 @@
 {
-  "name": "@ant-design/pro-skeleton",
-  "version": "2.1.13",
-  "description": "@ant-design/pro-skeleton",
+  "name": "@dz-web/antd-pro-skeleton",
+  "version": "3.0.0",
+  "description": "@dz-web/antd-pro-skeleton",
   "keywords": [
     "antd",
     "admin",

@@ -2,7 +2,7 @@ import {
   ProCard,
   ProFormGroup,
   ProFormSwitch,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 
 export default () => {
   return (

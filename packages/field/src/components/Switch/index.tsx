@@ -1,4 +1,4 @@
-import { useIntl } from '@ant-design/pro-provider';
+import { useIntl } from '@dz-web/antd-pro-provider';
 import type { SwitchProps } from 'antd';
 import { Switch } from 'antd';
 import Omit from 'omit.js';
@@ -6,7 +6,7 @@ import React, { useMemo } from 'react';
 import type { ProFieldFC } from '../../index';
 
 // 兼容代码-----------
-import { FieldLabel } from '@ant-design/pro-utils';
+import { FieldLabel } from '@dz-web/antd-pro-utils';
 import 'antd/lib/switch/style';
 //------------
 

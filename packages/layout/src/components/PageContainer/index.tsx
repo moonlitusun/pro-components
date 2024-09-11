@@ -1,5 +1,5 @@
-import type { GenerateStyle } from '@ant-design/pro-provider';
-import { ProConfigProvider, ProProvider } from '@ant-design/pro-provider';
+import type { GenerateStyle } from '@dz-web/antd-pro-provider';
+import { ProConfigProvider, ProProvider } from '@dz-web/antd-pro-provider';
 import type {
   AffixProps,
   BreadcrumbProps,
@@ -31,7 +31,7 @@ import type { PageContainerToken, pageContainerToken } from './style';
 import { useStyle } from './style';
 import { useStylish } from './style/stylish';
 
-import { compareVersions } from '@ant-design/pro-utils';
+import { compareVersions } from '@dz-web/antd-pro-utils';
 
 import 'antd/lib/breadcrumb/style';
 

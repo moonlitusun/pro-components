@@ -1,5 +1,5 @@
-﻿import type { ProFormLayoutType } from '@ant-design/pro-components';
-import { BetaSchemaForm, ProFormSelect } from '@ant-design/pro-components';
+﻿import type { ProFormLayoutType } from '@dz-web/antd-pro-components';
+import { BetaSchemaForm, ProFormSelect } from '@dz-web/antd-pro-components';
 import { Alert, Button, Space } from 'antd';
 import { useState } from 'react';
 

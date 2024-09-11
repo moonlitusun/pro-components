@@ -1,4 +1,4 @@
-import { proTheme, useIntl } from '@ant-design/pro-provider';
+import { proTheme, useIntl } from '@dz-web/antd-pro-provider';
 import { Input, InputNumber, Space } from 'antd';
 import useMergedState from 'rc-util/lib/hooks/useMergedState';
 import React from 'react';

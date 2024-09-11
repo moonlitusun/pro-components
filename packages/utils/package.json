@@ -1,7 +1,7 @@
 {
-  "name": "@ant-design/pro-utils",
-  "version": "2.15.17",
-  "description": "@ant-design/pro-utils",
+  "name": "@dz-web/antd-pro-utils",
+  "version": "3.0.0",
+  "description": "@dz-web/antd-pro-utils",
   "keywords": [
     "antd",
     "admin",
@@ -35,7 +35,7 @@
   ],
   "dependencies": {
     "@ant-design/icons": "^5.0.0",
-    "@ant-design/pro-provider": "2.14.9",
+    "@dz-web/antd-pro-provider": "workspace:*",
     "@babel/runtime": "^7.18.0",
     "classnames": "^2.3.2",
     "dayjs": "^1.11.10",

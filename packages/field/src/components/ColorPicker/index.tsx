@@ -1,4 +1,4 @@
-﻿import { compareVersions } from '@ant-design/pro-utils';
+﻿import { compareVersions } from '@dz-web/antd-pro-utils';
 import type { ColorPickerProps } from 'antd';
 import { ColorPicker as ColorPickerV5, ConfigProvider, version } from 'antd';
 import classNames from 'classnames';

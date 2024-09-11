@@ -4,8 +4,8 @@ import {
   VerticalAlignMiddleOutlined,
   VerticalAlignTopOutlined,
 } from '@ant-design/icons';
-import { ProProvider, useIntl } from '@ant-design/pro-provider';
-import { runFunction, useRefFunction } from '@ant-design/pro-utils';
+import { ProProvider, useIntl } from '@dz-web/antd-pro-provider';
+import { runFunction, useRefFunction } from '@dz-web/antd-pro-utils';
 import {
   Checkbox,
   ConfigProvider,

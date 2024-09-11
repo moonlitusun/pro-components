@@ -1,5 +1,5 @@
-import type { ActionType } from '@ant-design/pro-table';
-import ProTable, { TableDropdown } from '@ant-design/pro-table';
+import type { ActionType } from '@dz-web/antd-pro-table';
+import ProTable, { TableDropdown } from '@dz-web/antd-pro-table';
 import {
   act,
   cleanup,

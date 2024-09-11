@@ -1,4 +1,4 @@
-import type { ProFieldMoneyProps } from '@ant-design/pro-field';
+import type { ProFieldMoneyProps } from '@dz-web/antd-pro-field';
 import type { InputNumberProps } from 'antd';
 import React from 'react';
 import type { ProFormFieldItemProps } from '../../typing';

@@ -1,4 +1,4 @@
-﻿import { useDebounceFn } from '@ant-design/pro-utils';
+﻿import { useDebounceFn } from '@dz-web/antd-pro-utils';
 import { Avatar, ConfigProvider } from 'antd';
 
 import classNames from 'classnames';

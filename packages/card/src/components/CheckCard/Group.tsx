@@ -1,8 +1,8 @@
-import { useMountMergeState } from '@ant-design/pro-utils';
+import { useMountMergeState } from '@dz-web/antd-pro-utils';
 import { ConfigProvider, Skeleton } from 'antd';
 
 import { RightOutlined } from '@ant-design/icons';
-import { ProConfigProvider, proTheme } from '@ant-design/pro-provider';
+import { ProConfigProvider, proTheme } from '@dz-web/antd-pro-provider';
 import classNames from 'classnames';
 import omit from 'omit.js';
 import React, {

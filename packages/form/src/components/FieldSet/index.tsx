@@ -1,4 +1,4 @@
-﻿import { runFunction, useRefFunction } from '@ant-design/pro-utils';
+﻿import { runFunction, useRefFunction } from '@dz-web/antd-pro-utils';
 import type { SpaceProps } from 'antd';
 import { Input, Space } from 'antd';
 import type { GroupProps } from 'antd/lib/input';

@@ -1,5 +1,5 @@
-import { isNeedOpenHash, ProProvider } from '@ant-design/pro-provider';
-import { coverToNewToken } from '@ant-design/pro-utils';
+import { isNeedOpenHash, ProProvider } from '@dz-web/antd-pro-provider';
+import { coverToNewToken } from '@dz-web/antd-pro-utils';
 import { ConfigProvider } from 'antd';
 
 import classNames from 'classnames';

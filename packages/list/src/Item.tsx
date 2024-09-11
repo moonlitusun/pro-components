@@ -1,7 +1,7 @@
 import { RightOutlined } from '@ant-design/icons';
-import type { CheckCardProps } from '@ant-design/pro-card';
-import { CheckCard } from '@ant-design/pro-card';
-import { ProProvider } from '@ant-design/pro-provider';
+import type { CheckCardProps } from '@dz-web/antd-pro-card';
+import { CheckCard } from '@dz-web/antd-pro-card';
+import { ProProvider } from '@dz-web/antd-pro-provider';
 import { ConfigProvider, List, Skeleton } from 'antd';
 
 import type { ListGridType } from 'antd/lib/list';

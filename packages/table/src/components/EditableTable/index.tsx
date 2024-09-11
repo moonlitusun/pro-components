@@ -2,15 +2,15 @@
 import ProForm, {
   ProFormDependency,
   ProFormInstance,
-} from '@ant-design/pro-form';
-import type { ParamsType } from '@ant-design/pro-provider';
-import { useIntl } from '@ant-design/pro-provider';
+} from '@dz-web/antd-pro-form';
+import type { ParamsType } from '@dz-web/antd-pro-provider';
+import { useIntl } from '@dz-web/antd-pro-provider';
 import {
   isDeepEqualReact,
   runFunction,
   stringify,
   useRefFunction,
-} from '@ant-design/pro-utils';
+} from '@dz-web/antd-pro-utils';
 import type { ButtonProps, FormItemProps } from 'antd';
 import { Button, Form } from 'antd';
 import type { NamePath } from 'antd/lib/form/interface';

@@ -3,7 +3,7 @@ import React from 'react';
 import type { ProFieldFC } from '../../index';
 
 // 兼容代码-----------
-import { proTheme } from '@ant-design/pro-provider';
+import { proTheme } from '@dz-web/antd-pro-provider';
 import 'antd/lib/input/style';
 //----------------------
 

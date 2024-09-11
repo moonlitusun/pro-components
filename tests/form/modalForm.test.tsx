@@ -1,4 +1,4 @@
-﻿import { ModalForm, ProFormText } from '@ant-design/pro-form';
+﻿import { ModalForm, ProFormText } from '@dz-web/antd-pro-form';
 import {
   act,
   cleanup,

@@ -2,7 +2,7 @@ import {
   ProFormRadio,
   ProFormSwitch,
   ProList,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import { Progress, Tag } from 'antd';
 import { useState } from 'react';
 

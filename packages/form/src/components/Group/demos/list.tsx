@@ -8,7 +8,7 @@
   ProFormRadio,
   ProFormSelect,
   ProFormText,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import { ConfigProvider } from 'antd';
 import { useState } from 'react';
 

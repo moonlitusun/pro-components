@@ -11,7 +11,7 @@ import {
   ProFormTextArea,
   ProFormUploadButton,
   ProLayout,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import { Card } from 'antd';
 
 export default () => {

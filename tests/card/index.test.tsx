@@ -1,4 +1,4 @@
-import { ProCard } from '@ant-design/pro-components';
+import { ProCard } from '@dz-web/antd-pro-components';
 import { act, cleanup, render } from '@testing-library/react';
 
 vi.mock('antd/lib/grid/hooks/useBreakpoint');

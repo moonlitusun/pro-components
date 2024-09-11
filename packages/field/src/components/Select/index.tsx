@@ -1,4 +1,4 @@
-import { useIntl } from '@ant-design/pro-provider';
+import { useIntl } from '@dz-web/antd-pro-provider';
 import {
   compatibleBorder,
   nanoid,
@@ -14,7 +14,7 @@ import {
   useMountMergeState,
   useRefFunction,
   useStyle,
-} from '@ant-design/pro-utils';
+} from '@dz-web/antd-pro-utils';
 import type { SelectProps } from 'antd';
 import { ConfigProvider, Spin } from 'antd';
 import type { ReactNode } from 'react';

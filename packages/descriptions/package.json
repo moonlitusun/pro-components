@@ -1,7 +1,7 @@
 {
-  "name": "@ant-design/pro-descriptions",
-  "version": "2.5.51",
-  "description": "@ant-design/pro-descriptions",
+  "name": "@dz-web/antd-pro-descriptions",
+  "version": "3.0.0",
+  "description": "@dz-web/antd-pro-descriptions",
   "keywords": [
     "antd",
     "admin",
@@ -34,11 +34,11 @@
     "ie >= 11"
   ],
   "dependencies": {
-    "@ant-design/pro-field": "2.16.1",
-    "@ant-design/pro-form": "2.30.0",
-    "@ant-design/pro-provider": "2.14.9",
-    "@ant-design/pro-skeleton": "2.1.13",
-    "@ant-design/pro-utils": "2.15.17",
+    "@dz-web/antd-pro-field": "workspace:*",
+    "@dz-web/antd-pro-form": "workspace:*",
+    "@dz-web/antd-pro-provider": "workspace:*",
+    "@dz-web/antd-pro-skeleton": "workspace:*",
+    "@dz-web/antd-pro-utils": "workspace:*",
     "@babel/runtime": "^7.18.0",
     "rc-resize-observer": "^0.2.3",
     "rc-util": "^5.0.6"

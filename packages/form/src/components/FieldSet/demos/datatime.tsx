@@ -9,7 +9,7 @@
   ProFormDateWeekRangePicker,
   ProFormDateYearRangePicker,
   ProFormTimePicker,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import { Switch } from 'antd';
 import { useState } from 'react';
 

@@ -1,11 +1,11 @@
-﻿import type { FormListActionType } from '@ant-design/pro-components';
+﻿import type { FormListActionType } from '@dz-web/antd-pro-components';
 import {
   ProCard,
   ProForm,
   ProFormGroup,
   ProFormList,
   ProFormText,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import { Button, Space, message } from 'antd';
 import { useRef } from 'react';
 

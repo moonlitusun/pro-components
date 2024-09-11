@@ -1,19 +1,19 @@
-# @ant-design/pro-provider
+# @dz-web/antd-pro-provider
 
-> @ant-design/pro-provider.
+> @dz-web/antd-pro-provider.
 
-See our website [@ant-design/pro-provider](https://procomponent.ant.design/) for more information.
+See our website [@dz-web/antd-pro-provider](https://procomponent.ant.design/) for more information.
 
 ## Install
 
 Using npm:
 
 ```bash
-$ npm install --save  @ant-design/pro-provider
+$ npm install --save  @dz-web/antd-pro-provider
 ```
 
 or using yarn:
 
 ```bash
-$ yarn add @ant-design/pro-provider
+$ yarn add @dz-web/antd-pro-provider
 ```

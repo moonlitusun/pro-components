@@ -1,4 +1,4 @@
-import { ProTable } from '@ant-design/pro-components';
+import { ProTable } from '@dz-web/antd-pro-components';
 import { act, cleanup, render } from '@testing-library/react';
 import { waitForWaitTime } from '../util';
 

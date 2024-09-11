@@ -1,4 +1,4 @@
-import { omitUndefined } from '@ant-design/pro-utils';
+import { omitUndefined } from '@dz-web/antd-pro-utils';
 import omit from 'omit.js';
 import React from 'react';
 import ProFormDependency from '../../Dependency';

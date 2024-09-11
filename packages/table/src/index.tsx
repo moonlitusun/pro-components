@@ -1,5 +1,5 @@
-import { FieldIndexColumn, FieldStatus } from '@ant-design/pro-field';
-import type { IntlType } from '@ant-design/pro-provider';
+import { FieldIndexColumn, FieldStatus } from '@dz-web/antd-pro-field';
+import type { IntlType } from '@dz-web/antd-pro-provider';
 import {
   ConfigConsumer,
   arEGIntl,
@@ -17,11 +17,11 @@ import {
   viVNIntl,
   zhCNIntl,
   zhTWIntl,
-} from '@ant-design/pro-provider';
+} from '@dz-web/antd-pro-provider';
 import type {
   ProFieldValueType,
   RowEditableConfig,
-} from '@ant-design/pro-utils';
+} from '@dz-web/antd-pro-utils';
 import type { ColumnsState } from './Store/Provide';
 import ProTable from './Table';
 import type { DragTableProps } from './components/DragSortTable';

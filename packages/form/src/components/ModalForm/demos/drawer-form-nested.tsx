@@ -6,7 +6,7 @@ import {
   ProFormDateRangePicker,
   ProFormSelect,
   ProFormText,
-} from '@ant-design/pro-components';
+} from '@dz-web/antd-pro-components';
 import { Button, Space, message } from 'antd';
 import { useRef } from 'react';
 

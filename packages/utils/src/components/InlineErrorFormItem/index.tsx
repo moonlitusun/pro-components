@@ -1,5 +1,5 @@
 ﻿import { LoadingOutlined } from '@ant-design/icons';
-import { useToken } from '@ant-design/pro-provider';
+import { useToken } from '@dz-web/antd-pro-provider';
 import type { FormItemProps, PopoverProps } from 'antd';
 import { ConfigProvider, Form, Popover } from 'antd';
 import type { NamePath } from 'rc-field-form/lib/interface';

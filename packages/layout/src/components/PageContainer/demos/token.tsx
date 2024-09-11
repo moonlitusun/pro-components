@@ -1,5 +1,5 @@
 import { EllipsisOutlined } from '@ant-design/icons';
-import { PageContainer, ProTable } from '@ant-design/pro-components';
+import { PageContainer, ProTable } from '@dz-web/antd-pro-components';
 import { Button, Dropdown } from 'antd';
 
 export default () => (

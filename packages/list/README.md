@@ -1,4 +1,4 @@
-<h1 align="center">@ant-design/pro-list</h1>
+<h1 align="center">@dz-web/antd-pro-list</h1>
 
 <div align="center">
 

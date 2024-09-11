@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/ban-types */
-import { WaterMark } from '@ant-design/pro-components';
+import { WaterMark } from '@dz-web/antd-pro-components';
 import { act, cleanup, render } from '@testing-library/react';
 
 afterEach(() => {

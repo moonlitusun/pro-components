@@ -62,7 +62,7 @@ const checkDepsByAst = (ast, filePath) => {
               filePath.split(posix.sep).splice(0, 2).join(posix.sep),
             );
             try {
-              if (importPath.includes('@ant-design/pro')) return;
+              if (importPath.includes('@dz-web/antd-pro')) return;
               // 检查包在不在
               require.resolve(importPath, {
                 paths: [slash(join(__dirname, '..', packagePath))],

@@ -11,7 +11,7 @@ import 'antd/lib/upload/style';
 import { GridContext } from './helpers';
 import type { ProFormGroupProps } from './typing';
 //----------------------
-export { ProFormContext } from '@ant-design/pro-utils';
+export { ProFormContext } from '@dz-web/antd-pro-utils';
 export type {
   FormInstance,
   FormItemProps,
