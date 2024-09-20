@@ -45,7 +45,8 @@
     "@dz-web/antd-pro-provider": "workspace:*",
     "@dz-web/antd-pro-skeleton": "workspace:*",
     "@dz-web/antd-pro-table": "workspace:*",
-    "@dz-web/antd-pro-utils": "workspace:*"
+    "@dz-web/antd-pro-utils": "workspace:*",
+    "@dz-web/antd-pro-business": "workspace:*"
   },
   "peerDependencies": {
     "antd": "^4.24.15 || ^5.11.2",

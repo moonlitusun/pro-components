@@ -10,7 +10,7 @@ legacy: /table
 
 <code src="../demos/single.tsx"  background="var(--main-bg-color)" title="查询表格"></code>
 
-<code src="../demos/theme.tsx" background="var(--main-bg-color)" iframe="550" title="黑色主紧凑主题"></code>
+<!-- <code src="../demos/theme.tsx" background="var(--main-bg-color)" iframe="550" title="黑色主紧凑主题"></code>
 
 <code src="../demos/single-test.tsx" debug background="var(--main-bg-color)" ></code>
 
@@ -240,4 +240,4 @@ const values = useContext(ProProvider)
 
 #### TableDropdown
 
-<code src="../demos/edittable-rules.tsx" background="var(--main-bg-color)" title="列表工具栏-标题下拉菜单" debug></code>
+<code src="../demos/edittable-rules.tsx" background="var(--main-bg-color)" title="列表工具栏-标题下拉菜单" debug></code> -->

@@ -141,12 +141,14 @@ export default defineConfig({
       'zh-CN': [
         { title: '文档', link: '/docs' },
         { title: '组件', link: '/components' },
+        { title: '业务组件', link: '/business/components' },
         { title: 'Changelog', link: '/changelog' },
-        { title: 'Playground', link: '/playground' }
+        { title: 'Playground', link: '/playground' },
       ],
       'en-US': [
         { title: 'Docs', link: '/en-US/docs' },
         { title: 'Components', link: '/en-US/components' },
+        { title: 'Business Components', link: '/en-US/business/components' },
         { title: 'Changelog', link: '/en-US/changelog' },
         { title: 'Playground', link: '/en-US/playground' },
       ],
@@ -286,6 +288,19 @@ export default defineConfig({
             {
               title: 'Schema - 通用配置',
               link: '/components/schema',
+            },
+          ],
+        },
+        {
+          title: '业务组件',
+          children: [
+            {
+              title: 'Provider',
+              link: '/components/provider',
+            },
+            {
+              title: 'Permission - 权限',
+              link: '/components/permission',
             },
           ],
         },

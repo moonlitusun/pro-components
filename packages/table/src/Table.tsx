@@ -19,7 +19,7 @@ import {
   useMountMergeState,
 } from '@dz-web/antd-pro-utils';
 import type { TablePaginationConfig } from 'antd';
-import { ConfigProvider, Table } from 'antd';
+import { ConfigProvider, Table, Empty } from 'antd';
 import type {
   GetRowKey,
   SortOrder,
@@ -205,7 +205,7 @@ function TableRender<T extends Record<string, any>, U, ValueType>(
 
     return [...action.dataSource, row];
   };
-
+  
   const getTableProps = () => ({
     ...rest,
     size,
@@ -215,6 +215,7 @@ function TableRender<T extends Record<string, any>, U, ValueType>(
     columns: columns.map((item) =>
       item.isExtraColumns ? item.extraColumn : item,
     ),
+    // locale: { emptyText: action.loading ? null : <Empty description="No Data">暂无数据</Empty> },
     loading: action.loading,
     dataSource: editableUtils.newLineRecord
       ? editableDataSource(action.dataSource)
@@ -876,6 +877,8 @@ const ProTable = <
     return action.loading;
   }, [action.loading]);
 
+  console.log(propsColumns, 'propsColumns');
+  
   const searchNode = useMemo(() => {
     const node =
       search === false && type !== 'form' ? null : (

@@ -271,6 +271,7 @@ function BaseFormComponents<T = Record<string, any>, U = Record<string, any>>(
     ...rest
   } = props;
 
+
   /**
    * 获取 form 实例
    */
@@ -785,7 +786,11 @@ function BaseForm<T = Record<string, any>, U = Record<string, any>>(
                 'labelWidth',
                 'autoFocusFirstInput',
               ] as any[])}
-              ref={(instance) => formRef.current.nativeElement = instance?.nativeElement}
+              ref={(instance) => {
+                if (instance && instance.nativeElement) {
+                  formRef.current.nativeElement = instance?.nativeElement;
+                }
+              }}
               // 组合 urlSearch 和 initialValues
               initialValues={
                 syncToUrlAsImportant

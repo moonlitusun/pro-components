@@ -8,5 +8,6 @@ export * from '@dz-web/antd-pro-provider';
 export * from '@dz-web/antd-pro-skeleton';
 export * from '@dz-web/antd-pro-table';
 export * from '@dz-web/antd-pro-utils';
+export * from '@dz-web/antd-pro-business';
 // @ts-ignore
 export * from './version';
