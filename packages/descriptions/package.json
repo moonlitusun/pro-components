@@ -1,6 +1,6 @@
 {
   "name": "@dz-web/antd-pro-descriptions",
-  "version": "3.0.0",
+  "version": "3.0.3",
   "description": "@dz-web/antd-pro-descriptions",
   "keywords": [
     "antd",
@@ -34,12 +34,12 @@
     "ie >= 11"
   ],
   "dependencies": {
+    "@babel/runtime": "^7.18.0",
     "@dz-web/antd-pro-field": "workspace:*",
     "@dz-web/antd-pro-form": "workspace:*",
     "@dz-web/antd-pro-provider": "workspace:*",
     "@dz-web/antd-pro-skeleton": "workspace:*",
     "@dz-web/antd-pro-utils": "workspace:*",
-    "@babel/runtime": "^7.18.0",
     "rc-resize-observer": "^0.2.3",
     "rc-util": "^5.0.6"
   },

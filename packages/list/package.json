@@ -1,6 +1,6 @@
 {
   "name": "@dz-web/antd-pro-list",
-  "version": "3.0.0",
+  "version": "3.0.3",
   "description": "🏆 Use Ant Design List like a Pro!",
   "keywords": [
     "antd",
@@ -33,11 +33,11 @@
   ],
   "dependencies": {
     "@ant-design/icons": "^5.0.0",
+    "@babel/runtime": "^7.18.0",
     "@dz-web/antd-pro-card": "workspace:*",
     "@dz-web/antd-pro-field": "workspace:*",
     "@dz-web/antd-pro-table": "workspace:*",
     "@dz-web/antd-pro-utils": "workspace:*",
-    "@babel/runtime": "^7.18.0",
     "classnames": "^2.3.2",
     "dayjs": "^1.11.10",
     "rc-resize-observer": "^1.0.0",
