@@ -1,6 +1,6 @@
 {
   "name": "@dz-web/antd-pro-business",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "@dz-web/antd-pro-card",
   "keywords": [
     "antd",
@@ -25,7 +25,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "father build"
+    "build": "father build",
+    "prepublishOnly": "pnpm run build"
   },
   "browserslist": [
     "last 2 versions",

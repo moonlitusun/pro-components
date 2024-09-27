@@ -1,6 +1,6 @@
 {
   "name": "@dz-web/antd-pro-components",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "@dz-web/antd-pro-components",
   "keywords": [
     "antd",
@@ -36,6 +36,7 @@
   ],
   "dependencies": {
     "@babel/runtime": "^7.16.3",
+    "@dz-web/antd-pro-business": "workspace:*",
     "@dz-web/antd-pro-card": "workspace:*",
     "@dz-web/antd-pro-descriptions": "workspace:*",
     "@dz-web/antd-pro-field": "workspace:*",
@@ -45,8 +46,7 @@
     "@dz-web/antd-pro-provider": "workspace:*",
     "@dz-web/antd-pro-skeleton": "workspace:*",
     "@dz-web/antd-pro-table": "workspace:*",
-    "@dz-web/antd-pro-utils": "workspace:*",
-    "@dz-web/antd-pro-business": "workspace:*"
+    "@dz-web/antd-pro-utils": "workspace:*"
   },
   "peerDependencies": {
     "antd": "^4.24.15 || ^5.11.2",
