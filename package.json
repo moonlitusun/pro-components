@@ -33,7 +33,7 @@
     "tsc:duplicate": "tsc -p ./tests/tsconfig.duplicate.json",
     "update:deps": "pnpm up --latest",
     "version": "node ./scripts/gen_version.js",
-    "pub": "pnpm -r exec -- pnpm publish --no-git-checks"
+    "pub": "lerna publish --force-publish=* --no-private"
   },
   "browserslist": [
     "last 2 versions",
@@ -119,7 +119,7 @@
     "jest-canvas-mock": "^2.5.2",
     "jest-fetch-mock": "^3.0.3",
     "jsdom": "^19.0.0",
-    "lerna": "^3.22.1",
+    "lerna": "^8.1.2",
     "lint-staged": "^10.5.4",
     "lodash-es": "^4.17.21",
     "mockdate": "^3.0.5",
