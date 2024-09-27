@@ -1,4 +1,5 @@
-import React, { createContext } from 'react';
+import React from 'react';
+import { createContext } from 'use-context-selector';
 export const BusinessProviderContext = createContext<Record<string, any>>({});
 
 interface ProviderProps extends React.PropsWithChildren { 

@@ -1,5 +1,5 @@
-import { useContext } from "react";
 import { BusinessProviderContext } from "../provider";
+import { useContextSelector } from 'use-context-selector';
 
 interface PermissionProps extends React.PropsWithChildren{
   permissionKey: string | string[]; // 权限值  permissionKey
@@ -10,7 +10,8 @@ interface PermissionProps extends React.PropsWithChildren{
 const toArray = (value: string | string[]): string[] => [].concat(value);
 
 const Permission: React.FC<PermissionProps> = ({ children, permissionKey, fallback = null, isFull}) => {
-  const { permissionList } = useContext(BusinessProviderContext);
+
+  const permissionList = useContextSelector(BusinessProviderContext, (v) => v.permissionList); 
 
   if (!permissionList) return fallback;
 

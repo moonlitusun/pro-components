@@ -44,11 +44,13 @@
     "rc-util": "^5.4.0"
   },
   "devDependencies": {
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "use-context-selector": "^2.0.0"
   },
   "peerDependencies": {
     "antd": "^4.24.15 || ^5.11.2",
-    "react": ">=17.0.0"
+    "react": ">=17.0.0",
+    "use-context-selector": "^2.0.0"
   },
   "publishConfig": {
     "access": "public"
