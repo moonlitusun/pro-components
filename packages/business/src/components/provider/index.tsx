@@ -1,9 +1,9 @@
 import React, { createContext } from 'react';
 export const BusinessProviderContext = createContext<Record<string, any>>({});
 
-interface ProviderProps { 
+interface ProviderProps extends React.PropsWithChildren { 
   permissionList?: string[];
-  children: React.ReactNode;
+  baseServer: string;
 }
 
 const Provider = ({

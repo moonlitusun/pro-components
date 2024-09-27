@@ -11,7 +11,7 @@ export default () => {
     <BusinessProvider permissionList={permissionList}>
       <p>权限列表 permissionList = {JSON.stringify(permissionList)}</p>
  
-      <BusinessPermission value='jump' noAccessContent='暂无jump权限'>
+      <BusinessPermission value='jump' fallback='暂无jump权限'>
         <div>jump</div>
       </BusinessPermission>
 

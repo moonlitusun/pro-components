@@ -9,10 +9,10 @@ export default () => {
 
   return (
     <BusinessProvider permissionList={permissionList}>
-     <BusinessPermission value='add'>
+     <BusinessPermission permissionKey='add'>
         <div>我是 add </div>
       </BusinessPermission>
-      <BusinessPermission value='jump' noAccessContent='暂无jump权限'>
+      <BusinessPermission permissionKey='jump' fallback='暂无jump权限'>
         <div>我是 jump </div>
       </BusinessPermission>
 
