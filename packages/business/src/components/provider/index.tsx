@@ -1,7 +1,16 @@
-import React from 'react';
+import React, { createContext } from 'react';
+export const BusinessProviderContext = createContext<Record<string, any>>({});
 
-const Provider = () => {
-  return <div>Provider</div>;
+interface ProviderProps { 
+  permissionList?: string[];
+  children: React.ReactNode;
+}
+
+const Provider = ({
+  children,
+  ...rest
+}: ProviderProps) => {
+  return <BusinessProviderContext.Provider value={{  ...rest }}>{children}</BusinessProviderContext.Provider>
 };
 
 export default Provider;

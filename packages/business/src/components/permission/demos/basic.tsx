@@ -1,55 +1,28 @@
 import {
   BusinessPermission,
+  BusinessProvider,
 } from '@dz-web/antd-pro-components';
 
 export default () => {
+
+  const permissionList= ['add','edit','delete',]
+
   return (
-    <>
-      <BusinessPermission>
-        <div>Permissio1n</div>
+    <BusinessProvider permissionList={permissionList}>
+      <p>权限列表 permissionList = {JSON.stringify(permissionList)}</p>
+      <BusinessPermission value='add'>
+        <div>single 单个匹配： 检查权限列表中有add权限</div>
       </BusinessPermission>
-      {/* <ProCard
-        title="默认尺寸"
-        bordered
-        extra={
-          <ProFormGroup>
-            <ProFormSwitch
-              name="Enable"
-              noStyle
-              checkedChildren={'启用'}
-              unCheckedChildren={'禁用'}
-            />
-          </ProFormGroup>
-        }
-        tooltip="这是提示"
-        style={{ maxWidth: 300 }}
-      >
-        <div>Card content</div>
-        <div>Card content</div>
-        <div>Card content</div>
-      </ProCard>
-      <ProCard
-        title="带卡片阴影"
-        extra="extra"
-        tooltip="这是提示"
-        style={{ maxWidth: 300 }}
-        boxShadow
-      >
-        <div>Card content</div>
-        <div>Card content</div>
-        <div>Card content</div>
-      </ProCard>
-      <ProCard
-        title="小尺寸卡片"
-        extra="extra"
-        tooltip="这是提示"
-        style={{ maxWidth: 300, marginBlockStart: 24 }}
-        size="small"
-      >
-        <div>Card content</div>
-        <div>Card content</div>
-        <div>Card content</div>
-      </ProCard> */}
-    </>
+
+      <BusinessPermission value={['add','jump']} match='partial'>
+        <div>partial 部分匹配： value=['add','jump'] ， value中有add权限存在权限列表中，这个内容可展示</div>
+      </BusinessPermission>
+
+      <BusinessPermission value={['add','edit']} match='full'>
+        <div>full 全部匹配： value=['add','edit']  满足value中所有权限key都在权限列表中存在，这个内容可展示</div>
+      </BusinessPermission>
+
+
+    </BusinessProvider>
   );
 };
